@@ -1,10 +1,13 @@
-# ActivityTaskView 
+# ActivityTaskView
 
 [[中文文档]](https://www.jianshu.com/p/c34483bb5c0f)
 
 ![Overview.png](https://github.com/rome753/ActivityTaskView/blob/master/screenshots/overview.png)
 
 ## 1. New UI and Function
+
+
+![mqs_1.png](https://github.com/rome753/ActivityTaskView/blob/master/screenshots/mqs_1.png)
 
 ![Overview.gif](https://github.com/rome753/ActivityTaskView/blob/master/screenshots/overview.gif)
 
