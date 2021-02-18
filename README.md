@@ -64,6 +64,14 @@ https://github.com/maoqis/ActivityTaskView/blob/master/app/src/main/java/cc/maoq
 
 4. Launch your app, and lifecycles will be showed in the float window.
 
+
+# flag 应用
+
+1. single_task : 找有堆栈|清空堆顶｜请求之后的顶部如果是当前activity不重建
+
+```
+FLAG_ACTIVITY_NEW_TASK|FLAG_ACTIVITY_CLEAR_TOP|FLAG_ACTIVITY_SINGLE_TOP
+```
 ## License
   Apache License, Version 2.0  
   http://www.apache.org/licenses/
