@@ -4,56 +4,107 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    tools:context="cc.rome753.demo.StandardActivity">
+    tools:context="cc.rome753.demo.StandardActivity"
+    tools:ignore="OnClick">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:orientation="vertical">
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="none">
 
-        <Button
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="startStandard"
-            android:text="@string/start_standard_activity"
-            android:textAllCaps="false" />
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="startSingleTop"
-            android:text="@string/start_singletop_activity"
-            android:textAllCaps="false" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="startMainActivity"
+                android:text="MainActivity"
+                android:textAllCaps="false" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="startSingleTask"
-            android:text="@string/start_singletask_activity"
-            android:textAllCaps="false" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="startIntentActivity"
+                android:text="IntentActivity"
+                android:textAllCaps="false" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="startSingleInstance"
-            android:text="@string/start_singleinstance_activity"
-            android:textAllCaps="false" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="startStandard"
+                android:text="@string/start_standard_activity"
+                android:textAllCaps="false" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="startDialogActivity"
-            android:text="@string/start_dialog_activity"
-            android:textAllCaps="false" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="startSingleTop"
+                android:text="@string/start_singletop_activity"
+                android:textAllCaps="false" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="startFragmentActivity"
-            android:text="@string/start_fragment_activity"
-            android:textAllCaps="false" />
-    </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="startSingleTask"
+                android:text="@string/start_singletask_activity"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="startSingleInstance"
+                android:text="@string/start_singleinstance_activity"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="startDialogActivity"
+                android:text="@string/start_dialog_activity"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="startFragmentActivity"
+                android:text="@string/start_fragment_activity"
+                android:textAllCaps="false" />
+
+            <CheckBox
+                android:id="@+id/checkbox_finish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/if_finish_activity" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="createShortcut"
+                android:text="@string/create_shortcut"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/select_task"
+                android:onClick="selectTask"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="frontTask"
+                android:text="@string/front_task"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
 
     <ScrollView
         android:layout_width="0dp"

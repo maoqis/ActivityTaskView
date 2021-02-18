@@ -6,4 +6,12 @@
     <string name="start_singleinstance_activity">start singleInstance</string>
     <string name="start_dialog_activity">start dialog</string>
     <string name="start_fragment_activity">start fragment activity</string>
+    <string name="if_finish_activity">是否finish Activity</string>
+    <string name="create_shortcut">创建快捷方式</string>
+    <string name="all_task">所有task</string>
+    <string name="task_start_activity">task启动A</string>
+    <string name="select_task">请选择task</string>
+    <string name="front_task">上面按钮选择的task到前台</string>
+    <string name="please_select_task">\"请先选择task,再点击该按钮\"</string>
+    <string name="not_found_task">没有找到task</string>
 </resources>

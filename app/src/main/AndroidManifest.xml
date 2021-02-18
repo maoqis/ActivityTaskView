@@ -19,8 +19,14 @@
         <activity
             android:name=".DialogActivity"
             android:theme="@style/dialogstyle" />
+        <activity android:name=".IntentActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
         <activity android:name=".StandardActivity" />
-        <activity android:name=".SingleTopActivity"
+        <activity
+            android:name=".SingleTopActivity"
             android:launchMode="singleTop" />
         <activity
             android:name=".SingleTaskActivity"
